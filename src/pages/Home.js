@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <div>
         <BannerHome />
-        <HorizontalScrollCard data={trendingData} heading={"Trending Shows"} trending={true}/>
+        <HorizontalScrollCard data={trendingData} heading={"Trending"} trending={true}/>
         <HorizontalScrollCard data={nowPlayingData} heading={"Now Playing"} trending={false} media_type={"movie"}/>
         <HorizontalScrollCard data={topRatedData} heading={"Top Rated Movies"} trending={false} media_type={"movie"}/>
         <HorizontalScrollCard data={popularTvShowData} heading={"Popular Tv Shows"} trending={false} media_type={"tv"}/>
